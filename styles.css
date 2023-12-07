@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 body {
     padding:0;
@@ -85,6 +85,7 @@ img {
     background-color: #F9FAF8;
     color:#1f2937;
     border-color: #f9faf8;
+    transition: all 300ms ease;
 }
 .indiff {
     font-size:48px;
@@ -131,9 +132,9 @@ img {
 
 }
 .quote p {
-    /* max-width:60vw; */
     margin-left: 7rem;
     margin-right: 7rem;
+    color:#1f2937;
 }
 .quote h4 {
     align-self: flex-end;
@@ -142,6 +143,44 @@ img {
     margin-right: 6rem;
     font-size:15px
 }
+
+/* sign up banner */
+ .action {
+    background-color: #3882f6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30rem;
+    border-radius: 0.7rem;
+    padding:2rem;
+    margin:100px auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+ .call-text {
+    color:#F9FAF8;
+
+ }
+ .call-text h4 {
+    font-size: 24px
+ }
+ .call-text p {
+    margin-top: -30px;
+ }
+ .action button {
+    background-color: #3882f6;
+    color:#F9FAF8;
+    border: 0.8px solid #f9faf8;
+    border-radius: 0.3rem;
+    font-size: 16px;
+    width: 7vw;
+    height: 5vh;
+ }
+ .action button:hover {
+    background-color: #F9FAF8;
+    color:#3882f6;
+    transition: all 300ms ease;
+ }
 /* links section */
 a {
     text-decoration: none;
