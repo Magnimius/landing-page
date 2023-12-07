@@ -120,6 +120,28 @@ img {
 .card img {
     border-radius: 0.3rem;
 }
+
+/* quote section */
+.quote {
+    background-color: #e5e7eb;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.quote p {
+    /* max-width:60vw; */
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.quote h4 {
+    align-self: flex-end;
+    display:flex;
+    flex-direction: row-reverse;
+    margin-right: 6rem;
+    font-size:15px
+}
 /* links section */
 a {
     text-decoration: none;
